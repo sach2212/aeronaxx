@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+  
+
+
+.service-content2{
+    /* background-color: #d82f2f; */
+    padding: 0 1.5rem;
+    
+    
+}
+ 
+
+ .sopcialservices{
+    background-image: radial-gradient(
+        circle farthest-side at 50% 50%,
+        #221542,
+        #0a0417 60%
+      );
+      background-attachment: fixed;
+      animation: gradient 15s ease infinite;
+      border-radius: 5rem;
+      background-size: 400% 150%;
+      padding: 2.5rem 0;
+ }
+
+
+ @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 50% 100%;
+    }
+    100% {
+      background-position: 150% 100%;
+    }
+  }
+.sopcialservices .simage{
+ 
+    height: 16rem;   
+     object-fit: cover;
+     overflow:hidden;
+  
+}
+.sopcialservices .simage img{
+    height: 100%;
+  transition: .1s ease-in-out;
+  cursor: pointer;
+}
+.sopcialservices .simage img:hover{
+    transform: scale(.8);
+
+  
+}
+
+
+
+
+
+.contentcreation,
+.websitebox,
+.instabox{
+     
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-evenly;
+    align-items: center;
+   
+      width: 100%;
+    margin: 1.3rem 0;
+    border-bottom: .5px solid rgb(28, 27, 27);
+    text-align: left;
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+    padding: 2.9rem  0;
+     
+   
+}
+
+.contentcreation{
+border-bottom: none;
+
+}
+
+ .sopcialservices h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    background-image: 
+    linear-gradient(to left, #d82f2f, #5e43d4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "Cinzel", serif;
+    line-height: .9;
+    overflow: hidden;
+}
+ 
+.contentcreation p,
+.websitebox p,
+.instabox p{
+  color: rgb(169, 169, 169);
+font-size: 1.2rem;
+font-style: italic;
+margin: 1rem 0;
+ 
+}
+
+
+ 
+ .consult{
+    text-align: center;
+  
+    font-size: 1.3rem;
+   overflow: hidden;
+   padding: 1.5rem;
+ margin-top: 4rem;
+
+ }
+
+ .consult a {
+    padding: 1rem;
+    background: none;
+    background-color: transparent;
+   border-radius: 4rem;
+    background-image: 
+  linear-gradient(to left, #d82f2f, #5e43d4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  cursor: pointer;
+  border: 1px solid rgb(250, 153, 153);
+  font-family: "Noto Sans", sans-serif;
+ text-transform: capitalize;
+ transition: .2s ease-in-out;
+ }
+
+ .consult a:hover {
+ 
+    border: 1px solid white;
+    background-image: 
+     linear-gradient(to left, #efefef, #5e43d4);
+ }
+
+
+ @media screen and (max-width: 500px ) {
+  
+
+  .contentcreation,
+  .websitebox,
+  .instabox{
+       
+    padding: 5rem 0;
+       /* margin: 6rem 0; */
+   
+  } 
+  
+  .contentcreation p,
+  .websitebox p,
+  .instabox p{
+       
+    /* padding: 5rem 0; */
+       margin: 2rem 0;
+   
+  }
+
+ }

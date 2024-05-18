@@ -1,0 +1,116 @@
+.project {
+  background-color: #05010c;
+  /* height:100vh; */
+  width: 100vw;
+  overflow: hidden;
+}
+
+.heading {
+  /* text-align: center; */
+  text-transform: capitalize;
+  color: white;
+  background-color: #0e0820;
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.pro-container {
+  background: radial-gradient(38% 45% at 50% 65%, #754ae1 10%, #0a0417);
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 8%;
+  align-items: center;
+}
+.pro-container1,
+.pro-container2 {
+  display: flex;
+
+  gap: 2rem;
+  padding: 0.1rem;
+}
+
+.container {
+  border-radius: 2rem;
+  box-shadow: rgba(88, 88, 88, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container .web_images {
+  background-color: #0a0417;
+}
+.container .web_images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+.container .webcontent {
+  padding: 1.3rem;
+  text-transform: capitalize;
+  height: 13.5rem;
+  line-height: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0a0417;
+  cursor: pointer;
+}
+.container .webcontent h1 {
+  font-size: 1.8rem;
+  color: rgb(198, 198, 198);
+}
+.container .webcontent h4 {
+  font-size: 1rem;
+  color: rgb(198, 198, 198);
+  letter-spacing: 0.1rem;
+}
+
+.category {
+  /* overflow: hidden; */
+}
+.category span {
+  background-color: #170d30;
+  padding: 0.4rem 1rem;
+  margin: 0 0.2rem;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  border-radius: 30rem;
+  color: rgb(161, 161, 161);
+}
+
+.arrow {
+  padding: 0 0.2rem;
+}
+.arrow:hover {
+  padding-left: 0.6rem;
+}
+
+@media screen and (max-width: 1170px) {
+  .pro-container1,
+  .pro-container2 {
+    flex-wrap: wrap;
+  }
+  .pro-container {
+    padding: 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 70%;
+  }
+
+  .container .webcontent {
+    padding: 1.9rem 1rem;
+    height: 13.5rem;
+  }
+}
+
+/* ------buttons-------- */
