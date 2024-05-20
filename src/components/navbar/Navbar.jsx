@@ -4,6 +4,7 @@ import logo from "/image/aer.png";
 import logo1 from "/image/logo1.png";
 import { FaBars } from "react-icons/fa";
 import { IoCloseOutline } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsActive(!isActive);
-  };
+  };  
 
   return (
     <div>
@@ -23,10 +24,14 @@ const Navbar = () => {
       </label>
       <div className="wrapper">
         <ul style={{ display: isActive ? 'block' : 'none' }}>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><Link to="/aeronaxx/">Home</Link></li>
+          <li><Link to="/aeronaxx">about</Link></li>
+          <li><Link to="/aeronaxx">services</Link></li>
+      
+          
+          {/* <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Gallery</a></li> */}
            
         </ul>
       </div>
