@@ -24,7 +24,7 @@ const Navbar = () => {
       </label>
       <div className="wrapper">
         <ul style={{ display: isActive ? 'block' : 'none' }}>
-          <li><Link to="/aeronaxx/">Home</Link></li>
+          <li><Link to="/aeronaxx">Home</Link></li>
           <li><Link to="/aeronaxx">about</Link></li>
           <li><Link to="/aeronaxx">services</Link></li>
       
