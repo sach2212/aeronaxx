@@ -9,6 +9,7 @@ import web3 from "/image/web3.png";
 import web4 from "/image/web4.png";
 import web5 from "/image/WEB5.png";
 import web6 from "/image/WEB6.png";
+import { color } from "framer-motion";
  
 
 const Project = () => {
@@ -29,7 +30,7 @@ const Project = () => {
         <div className="pro-container1">
           <div className="container" data-aos="fade-right">
             <div className="web_images">
-                <a href="https://vinyasaresidency.com/">
+                <a href="https://new.vinyasaresidency.com/">
               <img src={web1} alt="" />
               </a>
             </div>
@@ -37,6 +38,8 @@ const Project = () => {
               <h1>vinyasa residency</h1>
 
               <div className="category">
+              <span style={{color :"red"}}>live</span>
+              
                 <span>development</span>
                 <span>Design</span>
                 <span>Static</span>
@@ -83,6 +86,8 @@ const Project = () => {
               <h1>Hilltone resort</h1>
 
               <div className="category">
+              <span style={{color :"red"}}>live</span>
+              
                 <span>development</span>
                 <span>Design</span>
                 <span>Static</span>
@@ -109,7 +114,7 @@ const Project = () => {
                 <span>Design</span>
                 <span>Static</span>
                 <span>SMM</span>
-              </div>
+               </div>
               <h4>
                 visit now
                 <span className="arrow">→</span>
@@ -129,6 +134,7 @@ const Project = () => {
               <h1>Hilltone resort</h1>
 
               <div className="category">
+                
                 <span>development</span>
                 <span>Design</span>
                 <span>Static</span>

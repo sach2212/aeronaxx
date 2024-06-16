@@ -3,6 +3,7 @@
   /* height:100vh; */
   width: 100vw;
   overflow: hidden;
+  /* padding: 5rem 0; */
 }
 
 .heading {
@@ -15,6 +16,7 @@
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
   letter-spacing: 0.1rem;
+  margin-top: 5rem;
 }
 
 .pro-container {
@@ -26,6 +28,7 @@
   justify-content: center;
   padding: 8%;
   align-items: center;
+  padding-top: 5rem;
 }
 .pro-container1,
 .pro-container2 {
